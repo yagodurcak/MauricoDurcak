@@ -1,0 +1,55 @@
+
+.varietales{
+    /* padding: 1.875rem; */
+    background-color: #9A9797;
+    /* height: 36.0625rem; */
+    /* width: 100%; */
+   padding: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    .varietales__cards{
+        width: 100%;
+        /* background-color: aqua; */
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 18.75rem;
+       
+        column-gap: 1.875rem;
+        @media screen and (max-width: 768px){
+            width: 100%;
+        /* background-color: aqua; */
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 20px;
+       
+        column-gap: 1.875rem;
+        }
+
+        .varietales__img{
+            height: 15.5rem;
+        }
+        .varietales__title{
+            color: black;
+            opacity: 0.8;
+            letter-spacing: 0.25rem;
+            text-align: center;
+            
+        }
+
+
+    }
+}
+
+
+
+
+
+
+

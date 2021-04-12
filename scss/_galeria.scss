@@ -1,0 +1,44 @@
+
+/* galeria */
+
+
+#galeria{
+    padding: 1.875rem;
+    background-color: #9A9797;
+    /* height: 36.0625rem; */
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    .galeria__cards{
+    
+        /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        /* row-gap: 0.625rem; */
+        @media screen and (max-width: 768px){
+            /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        /* row-gap: 0.625rem; */
+        }
+
+        .galeria__img{
+            margin: 1.25rem;
+            /* height: 12.5rem; */
+            width: 90%;
+            filter: brightness(80%);
+        }
+        
+    }
+}
+
+
+
+

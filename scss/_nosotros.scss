@@ -1,0 +1,60 @@
+
+
+#nosotros{
+    margin: 1.25rem;
+    width: 100%;
+    /* height: 36.0625rem; */
+    display: grid;
+    justify-content: center ;
+    align-items: center;
+    justify-items: center;
+    /* background-color: #112C5B; */
+    .nosotros__desc{
+
+        width: 80%;
+        /* background-color: aqua; */
+        display: grid;
+        /* justify-content: center; */
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 3fr 1fr; /*declaro que mi grid tiene una sola columna y es de 43.75rem*/
+        grid-template-rows: 300px;
+        column-gap: 1.25rem;
+        @media screen and (max-width: 768px){
+            font-size: 0.87rem;
+            width: 90%;
+        text-align: center;
+        grid-template-columns: 1fr; /*declaro que mi grid tiene una sola columna y es de 43.75rem*/
+        grid-template-rows: 1fr 1fr;
+        /* column-gap: 1.25rem; */
+        row-gap: 2px;
+
+        }
+        .nosotros__txt{
+        /* background-color: #900C3F; */
+            /* margin-right: 5rem; */
+            /* height: 15.625rem; */
+            width: 90%;
+            font-size: 13px;
+            color: black;
+            opacity: 0.6;
+            letter-spacing: 0.125rem;
+            @media screen and (max-width: 992px) {
+             
+                    font-size: 10px;
+                }
+            @media screen and (max-width: 768px){
+                font-size: 10px;
+              }
+            }
+        .nosotros__img{
+            height: 15.75rem;
+            /* background-color: #9A9797; */
+        }
+}
+
+    
+}
+
+
+
